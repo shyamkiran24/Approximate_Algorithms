@@ -24,8 +24,10 @@ class Prod:
 		self.adjList = list()
 		self.match = None
 		self.currank = None
-		
-
+#Parsing		
+#The proposer(user) holds two arrays, one for the product and 
+#the other array holds the corresponding products preference 
+#for the user.
 for line in o:
 	if line.startswith('product/productId:'):
 		lis = line.split()
